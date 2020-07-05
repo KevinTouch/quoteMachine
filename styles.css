@@ -1,0 +1,32 @@
+html, body, .container, .row {
+  height: 100%;
+}
+
+body {
+  background: cadetblue;
+}
+
+button {
+  float: right;
+  margin-bottom: 1rem;
+}
+
+/* Overriding Boostrap classes */
+.row {
+  justify-content: center;
+  align-content: center;
+}
+
+.col-lg-6 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+i {
+  font-size: 2.5em;
+}
+
+#quoteBlock {
+  background: azure;
+}
+
